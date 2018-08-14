@@ -2,7 +2,7 @@ SC.initialize({
   client_id: '340f063c670272fac27cfa67bffcafc4'
 });
 
-$(document).ready(function(){
+$(document).ready(function() {
   SC.stream('/tracks/340282793',function(sound){
     $('#start').click(function(e){
       e.preventDefault();
