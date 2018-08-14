@@ -91,7 +91,7 @@ $(document).ready(function(){
   });
 
   SC.stream('/tracks/30777890',function(sound){
-    $('#start8').click(functio38212251n(e){
+    $('#start8').click(function(e){
       e.preventDefault();
       sound.start();
     });
